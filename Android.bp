@@ -285,6 +285,19 @@ cc_prebuilt_library_shared {
     system_ext_specific: true,
 }
 
+android_app_import {
+	name: "GoogleCamera",
+	owner: "google",
+	apk: "proprietary/product/app/GoogleCamera/GoogleCamera.apk",
+	overrides: ["Aperture", "Camera2"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
 cc_prebuilt_library_shared {
     name: "libsecureui_svcsock_system",
     owner: "google",
