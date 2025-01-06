@@ -976,28 +976,12 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libI420colorconvert \
-    libMpeg4SwEncoder \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL-pixel \
     libOpenCL \
     libQSEEComAPI \
@@ -1282,13 +1266,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.voiceprint@1.0 \
     libhalide_hexagon_remote_skel \
-    libFileMux_proprietary \
-    libOmxDsdDec \
     libadm \
     libadpcmdec \
     libcppf \
     libdrc \
-    libdsd2pcm \
     libfastcrc \
     libmaxxaudioqdsp \
     libmmosal \
